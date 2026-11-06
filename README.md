@@ -14,14 +14,14 @@ Every documented endpoint is a command — **23 commands** — and `request` rea
 ## Install
 
 ```sh
-npm install --global @autom/cli
+npm install --global @automdev/cli
 autom --help
 ```
 
 Or run it without installing:
 
 ```sh
-npx @autom/cli --help
+npx @automdev/cli --help
 ```
 
 ## Configure your API key
@@ -112,7 +112,7 @@ autom google-search --query 'web scraping api' | jq .
 
 ## Built on the SDK
 
-The CLI uses the official [Node.js SDK](https://github.com/automdev/autom-node) (`@autom/sdk`). Use the SDK directly for programmatic access.
+The CLI uses the official [Node.js SDK](https://github.com/automdev/autom-node) (`@automdev/sdk`). Use the SDK directly for programmatic access.
 
 ## License
 
