@@ -4,7 +4,7 @@ import {
   AutomError,
   type ApiResponse,
   type AutomClientOptions,
-} from "@autom/sdk";
+} from "@automdev/sdk";
 
 import { coerce, looseValue, normalize, parseArgs } from "./args.js";
 import { COMMANDS } from "./commands.js";

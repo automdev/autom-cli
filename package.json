@@ -1,5 +1,5 @@
 {
-  "name": "@autom/cli",
+  "name": "@automdev/cli",
   "version": "0.1.0",
   "description": "Official command-line interface for the Autom SERP API.",
   "type": "module",
@@ -46,7 +46,7 @@
     "node": ">=20"
   },
   "dependencies": {
-    "@autom/sdk": "^0.1.0"
+    "@automdev/sdk": "^0.1.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",

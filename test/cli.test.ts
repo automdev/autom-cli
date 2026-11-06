@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 
-import { AutomClient, type AutomFetch } from "@autom/sdk";
+import { AutomClient, type AutomFetch } from "@automdev/sdk";
 
 import { runCli, type ClientFactory } from "../src/cli.js";
 import { COMMANDS } from "../src/commands.js";
